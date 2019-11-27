@@ -3,9 +3,11 @@ read -p "data type:" data_type;
 
 
 #2.寻找并解压对应文件
+#	获取文件位置信息
 file_path=$(find ./stddata__2016_07_15/ -name "*.Level_3*.gz");
 file_base=$(basename $file_path);
 file_dir=$(dirname $file_path);
+#	查找并解压文件
 file_path=${file_path%.tar.gz};
 if [ ! -d "$file_path" ];then
 	find ./stddata__2016_07_15/ -name "*.Level_3*.gz" -exec tar -zxvkf {} -C $file_dir \;
