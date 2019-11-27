@@ -11,4 +11,4 @@ In this project, I saved the program I wrote when I completed my graduate studie
 - Survive analysis
 
 
-Thank you for your review, and welcome your valuable suggestions.
+Thank you for your review. Feel free to leave your valuable suggestions.
